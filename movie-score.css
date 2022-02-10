@@ -1,0 +1,27 @@
+.movie-score-netflix {
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    z-index: 999;
+
+    background-color: rgb(215, 38, 45);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+}
+
+.movie-score-primevideo {
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    z-index: 999;
+
+    background-color: rgb(28, 140, 214);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+}
