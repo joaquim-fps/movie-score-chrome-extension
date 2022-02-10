@@ -6,13 +6,21 @@
     "content_scripts": [
         {
             "matches": ["https://*.netflix.com/*"],
-            "js": ["./content.js", "./api.js", "./netflix/variables.js"],
-            "css": ["./movie-score.css"]
+            "js": [
+                "./content/js/content.js",
+                "./content/js/api.js",
+                "./content/netflix/variables.js"
+            ],
+            "css": ["./content/css/movie-score.css"]
         },
         {
             "matches": ["https://*.primevideo.com/*"],
-            "js": ["./content.js", "./api.js", "./prime-video/variables.js"],
-            "css": ["./movie-score.css"]
+            "js": [
+                "./content/js/content.js",
+                "./content/js/api.js",
+                "./content/prime-video/variables.js"
+            ],
+            "css": ["./content/css/movie-score.css"]
         }
     ]
 }
